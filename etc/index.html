@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Thomas Schneider</title>
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤷‍♂️</text></svg>">
+</head>
+
+<style>
+    body {
+        background: rgb(250, 250, 250);
+    }
+
+    @keyframes start {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @-o-keyframes start {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @-moz-keyframes start {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @-webkit-keyframes start {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    #overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgb(250, 250, 250);
+        background: radial-gradient(circle, rgb(250, 250, 250) 0%, rgb(250, 250, 240) 40%, rgb(240, 240, 190) 100%);
+    }
+
+    #loss {
+        width: 495px;
+        height: 263px;
+        background-image: url('../img/loss.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 30px;
+        bottom: 50px;
+        left: 30px;
+        right: 30px;
+        margin: auto;
+        text-align: center;
+        opacity: 1;
+        animation: start 1000ms ease-in-out;
+    }
+
+    p,
+    a {
+        font-family: Helvetica, sans-serif;
+        font-size: 36px;
+        line-height: 49px;
+        margin-top: 19px;
+        color: rgb(38, 38, 38);
+        text-decoration: none;
+    }
+
+    .contact:after {
+        content: '📭';
+    }
+
+    .contact:hover:after {
+        content: '📬';
+    }
+
+    .translation:hover:after {
+        content: '🤦‍♀️';
+        font-size: 50px;
+    }
+
+    .translation:after {
+        content: '🤷‍♂️';
+        font-size: 70px;
+    }
+
+    .portrait {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .portrait:hover {
+        cursor: url('../img/portrait.png'), auto;
+    }
+
+    .book:hover {
+        cursor: url('../img/book.png'), auto;
+    }
+
+    .art:hover {
+        cursor: url('../img/art.png'), auto;
+    }
+
+    .austria:hover {
+        cursor: url('../img/austria.png'), auto;
+    }
+
+    .reward {
+        padding-left: 160px;
+        margin-top: -23px;
+        font-size: 28px;
+    }
+
+    .reward:hover {
+        cursor: url('../img/reward.png'), auto;
+    }
+
+    #footer {
+        position: fixed;
+        bottom: -5px;
+        width: 495px;
+        margin: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        animation: start 1000ms ease-in-out;
+    }
+</style>
+
+<body>
+    <div id="overlay">
+        <div id="loss">
+            <p><a class="portrait">Thomas Schneider</a>
+                <br><a class="book">🖋</a> <a class="art">🎨</a> ...
+                <br><a class="austria">🇦🇹</a>
+                <br><a class="contact" href="mailto:mfg@tschneider.at"></a>
+                <br><a class="reward">💬</a>
+            </p>
+        </div>
+    </div>
+    <div id="footer">
+        <p><a class="translation" href="../index.html"></a></p>
+    </div>
+</body>
+
+</html>
