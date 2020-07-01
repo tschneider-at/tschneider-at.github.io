@@ -57,7 +57,7 @@
     }
 
     #loss {
-        width: 495px;
+        max-width: 495px;
         height: 263px;
         background-image: url('/img/loss.png');
         background-size: cover;
