@@ -94,12 +94,12 @@
 
         p,
         a {
-            font-size: 4vw;
+            font-size: 26px;
         }
 
         .etc p,
         .etc a {
-            font-size: 5.5vw;
+            font-size: 36px;
         }
 
         .de,
@@ -116,18 +116,18 @@
         #line-5,
         #footer p,
         #footer a {
-            font-size: 3.3vw;
+            font-size: 22px;
             line-height: 1.4em;
         }
 
         .etc #line-1,
         .etc #line-5 {
-            font-size: 4vw;
+            font-size: 26px;
         }
 
         .etc #footer p,
         .etc #footer a {
-            font-size: 8vw;
+            font-size: 70px;
             line-height: .1em;
         }
 
