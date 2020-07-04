@@ -243,7 +243,7 @@
         left: 0;
         margin: auto;
         position: absolute;
-        background: url(img/card.png);
+        background: url("https://tschneider.at/img/card.png");
         background-position: top;
         background-size: contain;
         background-repeat: no-repeat;
@@ -284,19 +284,19 @@
     /* hover-images */
 
     .portrait:hover {
-        cursor: url("img/portrait.png"), auto;
+        cursor: url("https://tschneider.at/img/portrait.png"), auto;
     }
 
     .book:hover {
-        cursor: url("img/book.png"), auto;
+        cursor: url("https://tschneider.at/img/book.png"), auto;
     }
 
     .art:hover {
-        cursor: url("img/art.png"), auto;
+        cursor: url("https://tschneider.at/img/art.png"), auto;
     }
 
     .home:hover {
-        cursor: url("img/home.png"), auto;
+        cursor: url("https://tschneider.at/img/home.png"), auto;
     }
 
     .contact:after {
@@ -308,7 +308,7 @@
     }
 
     .reward:hover {
-        cursor: url('img/reward.png'), auto;
+        cursor: url('https://tschneider.at/img/reward.png'), auto;
     }
 
     .translate:after {
