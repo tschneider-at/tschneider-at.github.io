@@ -1,6 +1,139 @@
-    body {
-        background: rgb(250, 250, 250);
+    /* sreens with height smaller than 400px */
+
+    @media only screen and (max-height: 440px) {
+
+        p,
+        a {
+            font-size: 3.5vw;
+        }
+
+        .etc p,
+        .etc a {
+            font-size: 4.6vw;
+        }
+
+        .de,
+        .en,
+        .etc {
+            right: 18%;
+            left: 18%;
+        }
+
+        #card {
+            bottom: 0px;
+        }
+
+        #line-5,
+        #footer p,
+        #footer a {
+            font-size: 2.7vw;
+            line-height: 1.4em;
+        }
+
+        .etc #line-1,
+        .etc #line-5 {
+            font-size: 3.5vw;
+        }
+
+        .etc #footer p,
+        .etc #footer a {
+            font-size: 7vw;
+            line-height: .1em;
+        }
+
     }
+
+    /* screens with width smaller than 660px */
+
+    @media only screen and (max-width: 660px) and (min-height: 440px) {
+
+        p,
+        a {
+            font-size: 4vw;
+        }
+
+        .etc p,
+        .etc a {
+            font-size: 5.5vw;
+        }
+
+        .de,
+        .en,
+        .etc {
+            right: 12%;
+            left: 13%;
+        }
+
+        #card {
+            bottom: 50px;
+        }
+
+        #line-5,
+        #footer p,
+        #footer a {
+            font-size: 3.3vw;
+            line-height: 1.4em;
+        }
+
+        .etc #line-1,
+        .etc #line-5 {
+            font-size: 4vw;
+        }
+
+        .etc #footer p,
+        .etc #footer a {
+            font-size: 8vw;
+            line-height: .1em;
+        }
+
+    }
+
+    /* screens bigger than 660x400px */
+
+    @media only screen and (min-width: 660px) and (min-height: 440px) {
+
+        p,
+        a {
+            font-size: 26px;
+        }
+
+        .etc p,
+        .etc a {
+            font-size: 36px;
+        }
+
+        .de,
+        .en,
+        .etc {
+            right: 12%;
+            left: 13%;
+        }
+
+        #card {
+            bottom: 50px;
+        }
+
+        #line-5,
+        #footer p,
+        #footer a {
+            font-size: 22px;
+            line-height: 1.4em;
+        }
+
+        .etc #line-1,
+        .etc #line-5 {
+            font-size: 26px;
+        }
+
+        .etc #footer p,
+        .etc #footer a {
+            font-size: 70px;
+            line-height: .3em;
+        }
+
+    }
+
+    /* fade-in animation */
 
     @keyframes fade-in {
         from {
@@ -42,132 +175,146 @@
         }
     }
 
+    /* main */
 
-
-    #overlay {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: rgb(250, 250, 250);
-        
-    }
-
-    #loss {
-        max-width: 495px;
-        height: 263px;
-        background-image: url('/img/loss.png');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 30px;
-        bottom: 50px;
-        left: 30px;
-        right: 30px;
-        margin: auto;
-        text-align: center;
+    body {
         opacity: 1;
-        animation: fade-in 1000ms ease-in-out;
+        background: rgb(250, 250, 250);
     }
 
-    p,
-    a {
-        font-family: Helvetica, sans-serif;
-        font-size: 26px;
-        line-height: 49px;
-        margin-top: 24px;
+    p {
+        font-family: Arial, Helvetica, sans-serif;
         color: rgb(38, 38, 38);
+        line-height: 1.4em;
+    }
+
+    .etc a {
         text-decoration: none;
     }
 
-    .contact:before {
-        content: '';
-        background: transparent;
-        width: 0;
-        height: 45px;
-        display: block;
-        margin-bottom: -45px;
-        margin-left: 13%;
-        transition: width 600ms ease-in-out, background-color 600ms ease-in-out;
-        -webkit-transition: width 600ms ease-in-out, background-color 600ms ease-in-out;
-        -moz-transition: width 600ms ease-in-out, background-color 600ms ease-in-out;
-        -o-transition: width 600ms ease-in-out, background-color 600ms ease-in-out;
+    /* bg */
+
+    .de-bg,
+    .en-bg,
+    .etc-bg {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        position: fixed;
     }
 
-    .contact:hover:before {
-        width: 74%;
-        background: rgba(190, 250, 190, 0.8);
+    .de-bg {
+        background: radial-gradient(circle, rgb(250, 250, 250) 0%, rgba(240, 240, 240, 1) 40%, rgb(190, 190, 190) 100%);
     }
 
-    .contact:after {
-        content: ' 📭';
+    .en-bg {
+        background: radial-gradient(circle, rgb(250, 250, 250) 0%, rgb(240, 250, 250) 40%, rgb(190, 250, 250) 100%)
     }
 
-    .contact:hover:after {
-        content: ' 📬';
+    .etc-bg {
+        background: radial-gradient(circle, rgb(250, 250, 250) 0%, rgb(250, 250, 240) 40%, rgb(240, 240, 190) 100%);
     }
 
-    .translation:before {
-        content: '';
-        background: transparent;
-        width: 0;
-        height: 45px;
-        display: block;
-        margin-bottom: -45px;
-        margin-left: 20%;
-        transition: width 600ms ease-in-out, background-color 600ms ease-in-out;
-        -webkit-transition: width 600ms ease-in-out, background-color 600ms ease-in-out;
-        -moz-transition: width 600ms ease-in-out, background-color 600ms ease-in-out;
-        -o-transition: width 600ms ease-in-out, background-color 600ms ease-in-out;
+    .de,
+    .en,
+    .etc {
+        opacity: 1;
+        max-width: 495px;
+        height: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        text-align: center;
+        animation: fade-in 1s ease-in-out;
+        -o-animation: fade-in 1s ease-in-out;
+        -moz-animation: fade-in 1s ease-in-out;
+        -webkit-animation: fade-in 1s ease-in-out;
     }
 
-    .translation:hover:before {
-        width: 60%;
-        background: rgba(250, 250, 90, 0.8);
-    }
-
-    .portrait:hover {
-        cursor: url('/img/portrait.png'), auto;
-    }
-
-    .book:hover {
-        cursor: url('/img/book.png'), auto;
-    }
-
-    .art:hover {
-        cursor: url('/img/art.png'), auto;
-    }
-
-    .austria:hover {
-        cursor: url('/img/austria.png'), auto;
-    }
-
-    .reward {
-        font-size: 22px;
-        padding-left: 160px;
-        margin-top: -23px;
-    }
-
-    .reward:hover {
-        cursor: url('/img/reward.png'), auto;
+    #card {
+        max-width: 100%;
+        height: 263px;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        background: url(img/card.png);
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     #footer {
-        position: fixed;
+        width: 100%;
+        position: absolute;
         bottom: 0;
-        width: 495px;
-        margin: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-        animation: fade-in 1000ms ease-in-out;
     }
 
-    #footer p,
-    #footer a {
-        font-size: 22px;
+    /* text */
+
+    #line-1 {
+        margin: 6.4% 0 0 0;
+    }
+
+    #line-2,
+    #line-3,
+    #line-4 {
+        margin: 2.6% 0 0 0;
+    }
+
+    #line-5 {
+        margin: 3.9% 0 0 33%;
+    }
+
+    .etc #line-2,
+    .etc #line-3,
+    .etc #line-4 {
+        margin: 0;
+    }
+
+    .etc #line-5 {
+        margin: 1.8% 0 0 33%;
+    }
+
+    /* hover-images */
+
+    .portrait:hover {
+        cursor: url("img/portrait.png"), auto;
+    }
+
+    .book:hover {
+        cursor: url("img/book.png"), auto;
+    }
+
+    .art:hover {
+        cursor: url("img/art.png"), auto;
+    }
+
+    .home:hover {
+        cursor: url("img/home.png"), auto;
+    }
+
+    .contact:after {
+        content: '📭';
+    }
+
+    .contact:hover:after {
+        content: '📬';
+    }
+
+    .reward:hover {
+        cursor: url('img/reward.png'), auto;
+    }
+
+    .translate:after {
+        content: '🤷‍♂️';
+    }
+
+    .translate:hover:after {
+        content: '🤦‍♀️';
     }

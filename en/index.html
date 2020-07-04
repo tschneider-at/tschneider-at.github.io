@@ -3,201 +3,26 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thomas Schneider</title>
     <link rel="icon" type="image/svg+xml"
         href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇬🇧</text></svg>">
+    <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
-<style>
-    body {
-        background: rgb(250, 250, 250);
-    }
-
-    @keyframes start {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            opacity: 1;
-        }
-    }
-
-    @-o-keyframes start {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            opacity: 1;
-        }
-    }
-
-    @-moz-keyframes start {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            opacity: 1;
-        }
-    }
-
-    @-webkit-keyframes start {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            opacity: 1;
-        }
-    }
-
-    #overlay {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: rgb(250, 250, 250);
-
-    }
-
-    #loss {
-        width: 495px;
-        height: 263px;
-        background-image: url('/img/loss.png');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 30px;
-        bottom: 50px;
-        left: 30px;
-        right: 30px;
-        margin: auto;
-        text-align: center;
-        opacity: 1;
-        animation: start 1000ms ease-in-out;
-    }
-
-    p,
-    a {
-        font-family: Helvetica, sans-serif;
-        font-size: 26px;
-        line-height: 49px;
-        margin-top: 24px;
-        color: rgb(38, 38, 38);
-        text-decoration: none;
-    }
-
-    .contact:before {
-        content: '';
-        background: transparent;
-        width: 0;
-        height: 45px;
-        display: block;
-        margin-bottom: -45px;
-        margin-left: 23%;
-        transition: width 600ms ease-in-out, background-color 600ms ease-in-out;
-        -webkit-transition: width 600ms ease-in-out, background-color 600ms ease-in-out;
-        -moz-transition: width 600ms ease-in-out, background-color 600ms ease-in-out;
-        -o-transition: width 600ms ease-in-out, background-color 600ms ease-in-out;
-    }
-
-    .contact:hover:before {
-        width: 54%;
-        background: rgba(190, 190, 250, 0.8);
-    }
-
-    .contact:after {
-        content: ' 📭';
-    }
-
-    .contact:hover:after {
-        content: ' 📬';
-    }
-
-    .translation:before {
-        content: '';
-        background: transparent;
-        width: 0;
-        height: 45px;
-        display: block;
-        margin-bottom: -45px;
-        margin-left: 22%;
-        transition: width 600ms ease-in-out, background-color 600ms ease-in-out;
-        -webkit-transition: width 600ms ease-in-out, background-color 600ms ease-in-out;
-        -moz-transition: width 600ms ease-in-out, background-color 600ms ease-in-out;
-        -o-transition: width 600ms ease-in-out, background-color 600ms ease-in-out;
-    }
-
-    .translation:hover:before {
-        width: 56%;
-        background: rgba(250, 190, 250, 0.8);
-    }
-
-    .portrait:hover {
-        cursor: url('/img/portrait.png'), auto;
-    }
-
-    .book:hover {
-        cursor: url('/img/book.png'), auto;
-    }
-
-    .art:hover {
-        cursor: url('/img/art.png'), auto;
-    }
-
-    .austria:hover {
-        cursor: url('/img/austria.png'), auto;
-    }
-
-    .reward {
-        font-size: 22px;
-        padding-left: 160px;
-        margin-top: -23px;
-    }
-
-    .reward:hover {
-        cursor: url('/img/reward.png'), auto;
-    }
-
-    #footer {
-        position: fixed;
-        bottom: 0;
-        width: 495px;
-        margin: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-        animation: start 1000ms ease-in-out;
-    }
-
-    #footer p,
-    #footer a {
-        font-size: 22px;
-    }
-</style>
-
 <body>
-    <div id="overlay"
-        style="background: radial-gradient(circle, rgb(250, 250, 250) 0%, rgb(240, 250, 250) 40%, rgb(190, 250, 250) 100%);">
-        <div id="loss">
-            <p><a class="portrait">Thomas Schneider</a>
-                <br><a class="book">art historian 🖋</a>, <a class="art">artist 🎨</a> etc.
-                <br><a class="austria">from Graz, Austria</a>
-                <br><a class="contact" href="mailto:mfg@tschneider.at">Email not Gmail</a>
-                <br><a class="reward">a social connection 💬</a>
-            </p>
+    <div class="en-bg"></div>
+    <div class="en">
+        <div id="card">
+            <p id="line-1"><span class="portrait">Thomas Schneider</span></p>
+            <p id="line-2"><span class="book"></a>art historian 🖋</span>, <span class="art">artist 🎨</span> etc.</p>
+            <p id="line-3"><span class="home">from Graz, Austria</span></p>
+            <p id="line-4"><a class="contact" href="mailto:mfg@tschneider.at">Email not Gmail </a></p>
+            <p id="line-5"><span class="reward">a social connection 💬</span></p>
         </div>
-    </div>
-    <div id="footer">
-        <p><a class="translation" href="/etc">kapier i no imma net 🇦🇹</a></p>
+        <div id="footer">
+            <p><a href="../etc/index.html">kapier i no imma net 🇦🇹</a></p>
+        </div>
     </div>
 </body>
 
