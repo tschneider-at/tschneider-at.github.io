@@ -1,6 +1,6 @@
-    /* sreens with height smaller than 400px */
+    /* sreens smaller than 660x440px */
 
-    @media only screen and (max-height: 440px) {
+    @media only screen and (max-width: 660px) and (max-height: 440px) {
 
         p,
         a {
@@ -87,6 +87,52 @@
         }
 
     }
+
+    /* screens with height smaller than 440px */
+
+    @media only screen and (min-width: 660px) and (max-height: 440px) {
+
+        p,
+        a {
+            font-size: 4vw;
+        }
+
+        .etc p,
+        .etc a {
+            font-size: 5.5vw;
+        }
+
+        .de,
+        .en,
+        .etc {
+            right: 12%;
+            left: 13%;
+        }
+
+        #card {
+            bottom: 50px;
+        }
+
+        #line-5,
+        #footer p,
+        #footer a {
+            font-size: 3.3vw;
+            line-height: 1.4em;
+        }
+
+        .etc #line-1,
+        .etc #line-5 {
+            font-size: 4vw;
+        }
+
+        .etc #footer p,
+        .etc #footer a {
+            font-size: 8vw;
+            line-height: .1em;
+        }
+
+    }
+
 
     /* screens bigger than 660x400px */
 
