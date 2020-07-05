@@ -33,6 +33,10 @@
             line-height: .1em;
         }
 
+        #footer {
+            bottom: 0;
+        }
+
     }
 
     /* screens with width smaller than 660px */
@@ -68,6 +72,10 @@
         .etc #footer p, .etc #footer a {
             font-size: 8vw;
             line-height: .1em;
+        }
+
+        #footer {
+            bottom: 10%;
         }
 
     }
@@ -107,6 +115,10 @@
             line-height: .1em;
         }
 
+        #footer {
+            bottom: 0;
+        }
+
     }
 
 
@@ -143,6 +155,10 @@
         .etc #footer p, .etc #footer a {
             font-size: 70px;
             line-height: .3em;
+        }
+
+        #footer {
+            bottom: 10%;
         }
 
     }
@@ -234,7 +250,6 @@
     #footer {
         width: 100%;
         position: absolute;
-        bottom: 50px;
     }
 
     /* canvas */
