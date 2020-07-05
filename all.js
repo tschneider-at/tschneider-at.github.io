@@ -6,12 +6,17 @@ document.body.style.cursor = "url('/img/brush.png'), auto"
 
 const context = canvas.getContext("2d")
 
+context.canvas.width = window.innerWidth
+context.canvas.height = window.innerHeight
+
 context.strokeStyle = "rgb(250, 250, 250)"
 context.lineWidth = 20
 context.lineCap = "round"
 
 window.addEventListener("resize", function (event) {
 
+    context.canvas.width = window.innerWidth
+    context.canvas.height = window.innerHeight
     context.clearRect(0, 0, canvas.width, canvas.height)
     context.beginPath()
 
