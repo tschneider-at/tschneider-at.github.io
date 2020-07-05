@@ -2,28 +2,33 @@
 
 document.body.style.cursor = "url('/img/brush.png'), auto"
 
-var canvas = document.querySelector("canvas")
+const canvas = document.querySelector("canvas")
 
-var context = canvas.getContext("2d")
+canvas.width = window.innerWidth
+canvas.height = window.innerHeight
+
+const context = canvas.getContext("2d")
 
 context.strokeStyle = "rgb(250, 250, 250)"
 context.lineWidth = 20
 context.lineCap = "round"
-context.canvas.width = window.innerWidth
-context.canvas.height = window.innerHeight
 
 window.addEventListener("resize", function (event) {
 
-    context.clearRect(0, 0, context.canvas.width, context.canvas.height)
-    context.canvas.width = window.innerWidth
-    context.canvas.height = window.innerHeight
+    context.clearRect(0, 0, canvas.width, canvas.height)
+    canvas.width = window.innerWidth
+    canvas.height = window.innerHeight
+    const context = canvas.getContext("2d")
+    context.strokeStyle = "rgb(250, 250, 250)"
+    context.lineWidth = 20
+    context.lineCap = "round"
     context.beginPath()
 
 })
 
 document.addEventListener("click", function (event) {
 
-    context.clearRect(0, 0, context.canvas.width, context.canvas.height)
+    context.clearRect(0, 0, canvas.width, canvas.height)
     context.beginPath()
 
 })
