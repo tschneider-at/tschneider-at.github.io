@@ -232,8 +232,8 @@
     body {
         opacity: 1;
         background: rgb(250, 250, 250);
-        min-height: 100vh;
-        min-width: 100vw;
+        min-height: 100%;
+        min-width: 100%;
     }
 
     p, h1, h2, h3 {
@@ -245,32 +245,6 @@
 
     .etc a {
         text-decoration: none;
-    }
-
-    /* bg */
-
-    .de-bg,
-    .en-bg,
-    .etc-bg {
-        width: 100%;
-        height: 100%;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        position: absolute;
-    }
-
-    .de-bg {
-        background: radial-gradient(circle, rgb(250, 250, 250) 0%, rgba(240, 240, 240, 1) 40%, rgb(190, 190, 190) 100%);
-    }
-
-    .en-bg {
-        background: radial-gradient(circle, rgb(250, 250, 250) 0%, rgb(240, 250, 250) 40%, rgb(190, 250, 250) 100%)
-    }
-
-    .etc-bg {
-        background: radial-gradient(circle, rgb(250, 250, 250) 0%, rgb(250, 250, 240) 40%, rgb(240, 240, 190) 100%);
     }
 
     .de,
@@ -308,6 +282,32 @@
         width: 100%;
         position: absolute;
         bottom: 0;
+    }
+
+    /* canvas */
+
+    .de-bg,
+    .en-bg,
+    .etc-bg {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    .de-bg {
+        background: radial-gradient(circle, rgb(250, 250, 250) 0%, rgba(240, 240, 240, 1) 40%, rgb(190, 190, 190) 100%);
+    }
+
+    .en-bg {
+        background: radial-gradient(circle, rgb(250, 250, 250) 0%, rgb(240, 250, 250) 40%, rgb(190, 250, 250) 100%)
+    }
+
+    .etc-bg {
+        background: radial-gradient(circle, rgb(250, 250, 250) 0%, rgb(250, 250, 240) 40%, rgb(240, 240, 190) 100%);
     }
 
     /* text */
