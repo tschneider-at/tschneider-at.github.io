@@ -328,6 +328,14 @@
         cursor: url("/img/pointer.png") 15 0, auto;
     }
 
+    a.translate:any-link {
+        cursor: url("/img/pointer.png") 15 0, auto;
+    }
+
+    a.translate:-webkit-any-link {
+        cursor: url("/img/pointer.png") 15 0, auto;
+    }
+
     .contact:after {
         content: '📭';
     }
