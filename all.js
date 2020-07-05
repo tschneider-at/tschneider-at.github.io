@@ -20,7 +20,7 @@ document.addEventListener("click", function (event) {
 
 })
 
-document.addEventListener("resize", function (event) {
+window.addEventListener("resize", function (event) {
 
     context.clearRect(0, 0, canvas.width, canvas.height)
     context.beginPath()
