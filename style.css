@@ -365,7 +365,8 @@
     }
 
     .contact:hover,
-    #footer a:hover {
+    .pointer:hover,
+    .translate:hover {
         cursor: url("/img/pointer.png") 15 0, auto;
     }
 
