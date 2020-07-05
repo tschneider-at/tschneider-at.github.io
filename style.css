@@ -2,21 +2,15 @@
 
     @media only screen and (max-width: 660px) and (max-height: 440px) {
 
-        p,
-        a, h1, h2, h3 {
+        p, a, h1, h2, h3 {
             font-size: 3.5vw;
         }
 
-        .etc p,
-        .etc a,
-        .etc h2,
-        .eth h3 {
+        .etc p, .etc a, .etc h2, .eth h3 {
             font-size: 4.6vw;
         }
 
-        .de,
-        .en,
-        .etc {
+        .de, .en, .etc {
             right: 18%;
             left: 18%;
         }
@@ -25,20 +19,16 @@
             bottom: 0px;
         }
 
-        #line-3,
-        #footer p,
-        #footer a {
+        #line-3, #footer p, #footer a {
             font-size: 2.7vw;
             line-height: 1.4em;
         }
 
-        .etc h1,
-        .etc #line-3 {
+        .etc h1, .etc #line-3 {
             font-size: 3.5vw;
         }
 
-        .etc #footer p,
-        .etc #footer a {
+        .etc #footer p, .etc #footer a {
             font-size: 7vw;
             line-height: .1em;
         }
@@ -49,21 +39,15 @@
 
     @media only screen and (max-width: 660px) and (min-height: 440px) {
 
-        p,
-        a, h1, h2, h3 {
+        p, a, h1, h2, h3 {
             font-size: 4vw;
         }
 
-        .etc p,
-        .etc a,
-        .etc h2,
-        .eth h3 {
+        .etc p, .etc a, .etc h2, .eth h3 {
             font-size: 5.5vw;
         }
 
-        .de,
-        .en,
-        .etc {
+        .de, .en, .etc {
             right: 12%;
             left: 13%;
         }
@@ -72,20 +56,16 @@
             bottom: 50px;
         }
 
-        #line-3,
-        #footer p,
-        #footer a {
+        #line-3, #footer p, #footer a {
             font-size: 3.3vw;
             line-height: 1.4em;
         }
 
-        .etc h1,
-        .etc #line-3 {
+        .etc h1, .etc #line-3 {
             font-size: 4vw;
         }
 
-        .etc #footer p,
-        .etc #footer a {
+        .etc #footer p, .etc #footer a {
             font-size: 8vw;
             line-height: .1em;
         }
@@ -96,21 +76,15 @@
 
     @media only screen and (min-width: 660px) and (max-height: 440px) {
 
-        p,
-        a, h1, h2, h3 {
+        p, a, h1, h2, h3 {
             font-size: 26px;
         }
 
-        .etc p,
-        .etc a,
-        .etc h2,
-        .eth h3 {
+        .etc p, .etc a, .etc h2, .eth h3 {
             font-size: 36px;
         }
 
-        .de,
-        .en,
-        .etc {
+        .de, .en, .etc {
             right: 12%;
             left: 13%;
         }
@@ -119,20 +93,16 @@
             bottom: 50px;
         }
 
-        #line-3,
-        #footer p,
-        #footer a {
+        #line-3, #footer p,  #footer a {
             font-size: 22px;
             line-height: 1.4em;
         }
 
-        .etc h1,
-        .etc #line-3 {
+        .etc h1, .etc #line-3 {
             font-size: 26px;
         }
 
-        .etc #footer p,
-        .etc #footer a {
+        .etc #footer p, .etc #footer a {
             font-size: 70px;
             line-height: .1em;
         }
@@ -144,21 +114,15 @@
 
     @media only screen and (min-width: 660px) and (min-height: 440px) {
 
-        p,
-        a, h1, h2, h3 {
+        p, a, h1, h2, h3 {
             font-size: 26px;
         }
 
-        .etc p,
-        .etc a,
-        .etc h2,
-        .eth h3 {
+        .etc p, .etc a, .etc h2, .eth h3 {
             font-size: 36px;
         }
 
-        .de,
-        .en,
-        .etc {
+        .de, .en, .etc {
             right: 12%;
             left: 13%;
         }
@@ -167,20 +131,16 @@
             bottom: 50px;
         }
 
-        #line-3,
-        #footer p,
-        #footer a {
+        #line-3, #footer p, #footer a {
             font-size: 22px;
             line-height: 1.4em;
         }
 
-        .etc h1,
-        .etc #line-3 {
+        .etc h1, .etc #line-3 {
             font-size: 26px;
         }
 
-        .etc #footer p,
-        .etc #footer a {
+        .etc #footer p, .etc #footer a {
             font-size: 70px;
             line-height: .3em;
         }
@@ -231,9 +191,7 @@
         text-decoration: none;
     }
 
-    .de,
-    .en,
-    .etc {
+    .de, .en, .etc {
         opacity: 1;
         max-width: 495px;
         height: auto;
@@ -281,9 +239,7 @@
 
     /* canvas */
 
-    .de-bg,
-    .en-bg,
-    .etc-bg {
+    .de-bg, .en-bg, .etc-bg {
         width: 100%;
         height: 100%;
         top: 0;
@@ -326,9 +282,7 @@
         margin: 6.4% 0 0 0;
     }
 
-    h2,
-    #line-1,
-    #line-2 {
+    h2, #line-1, #line-2 {
         margin: 2.6% 0 0 0;
     }
 
@@ -336,9 +290,7 @@
         margin: 3.9% 0 0 33%;
     }
 
-    .etc h2,
-    .etc #line-1,
-    .etc #line-2 {
+    .etc h2, .etc #line-1, .etc #line-2 {
         margin: 0;
     }
 
@@ -364,8 +316,7 @@
         cursor: url("/img/home.png"), auto;
     }
 
-    .contact:hover,
-    .translate:hover {
+    .contact:hover, .translate:hover {
         cursor: url("/img/pointer.png") 15 0, auto;
     }
 
