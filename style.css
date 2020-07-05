@@ -316,7 +316,7 @@
         cursor: url("/img/home.png"), auto;
     }
 
-    .contact:hover {
+    a.contact:hover {
         cursor: url("/img/pointer.png") 15 0, auto;
     }
 
@@ -324,7 +324,7 @@
         cursor: url('/img/reward.png'), auto;
     }
 
-    .translate:hover {
+    a.translate:hover {
         cursor: url("/img/pointer.png") 15 0, auto;
     }
 
@@ -336,10 +336,10 @@
         content: '📬';
     }
 
-    .etc .translate:after {
+    .etc a.translate:after {
         content: '🤷‍♂️';
     }
 
-    .etc .translate:hover:after {
+    .etc a.translate:hover:after {
         content: '🤦‍♀️';
     }
