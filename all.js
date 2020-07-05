@@ -1,6 +1,6 @@
 //painter
 
-document.getElementsByName("body").style.cursor = "none";
+document.getElementsByClassName("body").style.cursor = "none";
 
 const canvas = document.querySelector("canvas")
 
