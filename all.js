@@ -13,14 +13,16 @@ context.strokeStyle = "rgb(250, 250, 250)"
 context.lineWidth = 20
 context.lineCap = "round"
 
-document.addEventListener("click", function (event) {
+window.addEventListener("resize", function (event) {
 
+    canvas.width = window.innerWidth
+    canvas.height = window.innerHeight
     context.clearRect(0, 0, canvas.width, canvas.height)
     context.beginPath()
 
 })
 
-window.addEventListener("resize", function (event) {
+document.addEventListener("click", function (event) {
 
     context.clearRect(0, 0, canvas.width, canvas.height)
     context.beginPath()
