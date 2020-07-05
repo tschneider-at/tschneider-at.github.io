@@ -317,7 +317,7 @@
     }
 
     .etc-bg {
-        background: radial-gradient(circle, rgb(250, 250, 250) 0%, rgb(250, 250, 240) 40%, rgb(240, 240, 190) 100%);
+        background: radial-gradient(circle, rgb(250, 250, 250) 0%, rgb(250, 240, 250) 40%, rgb(250, 190, 250) 100%);
     }
 
     /* text */
