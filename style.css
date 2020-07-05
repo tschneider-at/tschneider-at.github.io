@@ -366,7 +366,7 @@
 
     .contact:hover,
     #footer a:hover {
-        cursor: url("/img/pointer.png") -15 0, auto;
+        cursor: url("/img/pointer.png") 15 0, auto;
     }
 
     .reward:hover {
