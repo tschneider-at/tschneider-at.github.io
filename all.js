@@ -2,7 +2,7 @@
 
 document.body.style.cursor = "url('/img/brush.png'), auto"
 
-const canvas = document.querySelector("canvas")
+var canvas = document.querySelector("canvas")
 
 var context = canvas.getContext("2d")
 
