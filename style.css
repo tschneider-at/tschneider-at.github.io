@@ -30,7 +30,7 @@
             line-height: 1.4em;
         }
 
-        .etc #line-1,
+        .etc h1,
         .etc #line-5 {
             font-size: 3.5vw;
         }
@@ -75,7 +75,7 @@
             line-height: 1.4em;
         }
 
-        .etc #line-1,
+        .etc h1,
         .etc #line-5 {
             font-size: 4vw;
         }
@@ -120,7 +120,7 @@
             line-height: 1.4em;
         }
 
-        .etc #line-1,
+        .etc h1,
         .etc #line-5 {
             font-size: 26px;
         }
@@ -166,7 +166,7 @@
             line-height: 1.4em;
         }
 
-        .etc #line-1,
+        .etc h1,
         .etc #line-5 {
             font-size: 26px;
         }
@@ -230,7 +230,7 @@
         min-width: 100vw;
     }
 
-    p, h1, h2, h3 {
+    p, h1 {
         font-family: Arial, Helvetica, sans-serif;
         color: rgb(38, 38, 38);
         line-height: 1.4em;
@@ -306,7 +306,7 @@
 
     /* text */
 
-    #line-1 {
+    h1 {
         margin: 6.4% 0 0 0;
     }
 
