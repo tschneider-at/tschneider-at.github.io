@@ -1,30 +1,29 @@
 //painter
 
-const canvas = document.querySelector("canvas")
-
 document.body.style.cursor = "url('/img/brush.png'), auto"
 
-const context = canvas.getContext("2d")
+const canvas = document.querySelector("canvas")
 
-context.canvas.width = window.innerWidth
-context.canvas.height = window.innerHeight
+var context = canvas.getContext("2d")
 
 context.strokeStyle = "rgb(250, 250, 250)"
 context.lineWidth = 20
 context.lineCap = "round"
+context.canvas.width = window.innerWidth
+context.canvas.height = window.innerHeight
 
 window.addEventListener("resize", function (event) {
 
+    context.clearRect(0, 0, context.canvas.width, context.canvas.height)
     context.canvas.width = window.innerWidth
     context.canvas.height = window.innerHeight
-    context.clearRect(0, 0, canvas.width, canvas.height)
     context.beginPath()
 
 })
 
 document.addEventListener("click", function (event) {
 
-    context.clearRect(0, 0, canvas.width, canvas.height)
+    context.clearRect(0, 0, context.canvas.width, context.canvas.height)
     context.beginPath()
 
 })
