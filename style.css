@@ -332,7 +332,7 @@
     }
 
     a.contact:hover {
-        cursor: url("/img/pointer.png") 11 0, pointer;
+        cursor: url("/img/pointer.png") 18 0, pointer;
     }
 
     .reward:hover {
@@ -340,15 +340,15 @@
     }
 
     a.translate:hover {
-        cursor: url("/img/pointer.png") 11 0, pointer;
+        cursor: url("/img/pointer.png") 18 0, pointer;
     }
 
     a.translate:any-link {
-        cursor: url("/img/pointer.png") 11 0, pointer;
+        cursor: url("/img/pointer.png") 18 0, pointer;
     }
 
     a.translate:-webkit-any-link {
-        cursor: url("/img/pointer.png") 11 0, pointer;
+        cursor: url("/img/pointer.png") 18 0, pointer;
     }
 
     .contact:after {
