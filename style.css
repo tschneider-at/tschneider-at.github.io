@@ -366,7 +366,7 @@
 
     .contact:hover,
     .translate:hover {
-        cursor: url("/img/pointer.png"), auto;
+        cursor: url("/img/pointer.png") 0 15, auto;
     }
 
     .reward:hover {
