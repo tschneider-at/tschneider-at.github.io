@@ -232,9 +232,9 @@
     body {
         opacity: 1;
         background: rgb(250, 250, 250);
-        min-height: 100vh;
-        min-width: 100vw;
-        overflow: hidden;
+        height: 100vh;
+        width: 100vw;
+        overflow-x: hidden;
     }
 
     p, h1, h2, h3 {
