@@ -2,9 +2,6 @@
 
 const canvas = document.querySelector("canvas")
 
-canvas.width = window.innerWidth
-canvas.height = window.innerHeight
-
 document.body.style.cursor = "url('/img/brush.png'), auto"
 
 const context = canvas.getContext("2d")
@@ -15,8 +12,6 @@ context.lineCap = "round"
 
 window.addEventListener("resize", function (event) {
 
-    canvas.width = window.innerWidth
-    canvas.height = window.innerHeight
     context.clearRect(0, 0, canvas.width, canvas.height)
     context.beginPath()
 
