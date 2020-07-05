@@ -316,12 +316,16 @@
         cursor: url("/img/home.png"), auto;
     }
 
-    .contact:hover, .translate:hover {
+    .contact:hover {
         cursor: url("/img/pointer.png") 15 0, auto;
     }
 
     .reward:hover {
         cursor: url('/img/reward.png'), auto;
+    }
+
+    .translate:hover {
+        cursor: url("/img/pointer.png") 15 0, auto;
     }
 
     .contact:after {
