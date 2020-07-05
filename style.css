@@ -349,19 +349,28 @@
     /* hover-images */
 
     .portrait:hover {
-        cursor: url("https://tschneider.at/img/portrait.png"), auto;
+        cursor: url("/img/portrait.png"), auto;
     }
 
     .book:hover {
-        cursor: url("https://tschneider.at/img/book.png"), auto;
+        cursor: url("/img/book.png"), auto;
     }
 
     .art:hover {
-        cursor: url("https://tschneider.at/img/art.png"), auto;
+        cursor: url("/img/art.png"), auto;
     }
 
     .home:hover {
-        cursor: url("https://tschneider.at/img/home.png"), auto;
+        cursor: url("/img/home.png"), auto;
+    }
+
+    .contact:hover,
+    .translate:hover {
+        cursor: url("/img/pointer.png"), auto;
+    }
+
+    .reward:hover {
+        cursor: url('/img/reward.png'), auto;
     }
 
     .contact:after {
@@ -370,10 +379,6 @@
 
     .contact:hover:after {
         content: '📬';
-    }
-
-    .reward:hover {
-        cursor: url('https://tschneider.at/img/reward.png'), auto;
     }
 
     .translate:after {

@@ -5,11 +5,11 @@ const canvas = document.querySelector("canvas")
 canvas.width = window.innerWidth
 canvas.height = window.innerHeight
 
-document.body.style.cursor = "none"
+document.body.style.cursor = "url('/img/brush.png'), auto"
 
 const context = canvas.getContext("2d")
 
-context.strokeStyle = "rgba(250,250,250,1)"
+context.strokeStyle = "rgb(250, 250, 250)"
 context.lineWidth = 20
 context.lineCap = "round"
 
