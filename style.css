@@ -230,10 +230,11 @@
         min-width: 100vw;
     }
 
-    p {
+    p, h1, h2, h3 {
         font-family: Arial, Helvetica, sans-serif;
         color: rgb(38, 38, 38);
         line-height: 1.4em;
+        font-weight: normal;
     }
 
     .etc a {
