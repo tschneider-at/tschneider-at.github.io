@@ -5,7 +5,7 @@ canvas.height = window.innerHeight
 
 const context = canvas.getContext("2d")
 
-context.strokeStyle = "rgba(0, 0, 238, 0.5)"
+context.strokeStyle = "rgb(250, 250, 190)"
 context.lineWidth = 1
 context.lineCap = "round"
 
