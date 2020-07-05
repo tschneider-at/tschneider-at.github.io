@@ -36,5 +36,5 @@ document.addEventListener("mousemove", function (event) {
 
     context.lineTo(event.pageX, event.pageY)
     context.stroke()
-    
+
 })
