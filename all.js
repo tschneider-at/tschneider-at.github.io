@@ -1,3 +1,7 @@
+//painter
+
+document.getElementsByName("body").style.cursor = "none";
+
 const canvas = document.querySelector("canvas")
 
 canvas.width = window.innerWidth
@@ -5,7 +9,7 @@ canvas.height = window.innerHeight
 
 const context = canvas.getContext("2d")
 
-context.strokeStyle = "rgb(250,250,250,250)"
+context.strokeStyle = "rgba(250,250,250,1)"
 context.lineWidth = 20
 context.lineCap = "round"
 
