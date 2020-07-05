@@ -5,13 +5,13 @@ canvas.height = window.innerHeight
 
 const context = canvas.getContext("2d")
 
-context.strokeStyle = "#0000ee"
-context.lineWidth = 2
+context.strokeStyle = "#fff"
+context.lineWidth = 20
 context.lineCap = "round"
 
 let shouldPaint = true
 
-document.addEventListener("mousemove", function (event) {
+document.addEventListener("load", function (event) {
     shouldPaint = true
 })
 
