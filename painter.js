@@ -5,12 +5,7 @@ canvas.height = window.innerHeight
 
 const context = canvas.getContext("2d")
 
-var gradient = ctx.createLinearGradient(0, 0, 170, 0);
-gradient.addColorStop("0", "magenta");
-gradient.addColorStop("0.5" ,"blue");
-gradient.addColorStop("1.0", "red");
-
-context.strokeStyle = gradient
+context.strokeStyle = "rgb(250,250,250,250)"
 context.lineWidth = 20
 context.lineCap = "round"
 
