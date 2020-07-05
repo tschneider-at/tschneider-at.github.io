@@ -23,7 +23,7 @@
             bottom: 0px;
         }
 
-        #line-5,
+        #line-4,
         #footer p,
         #footer a {
             font-size: 2.7vw;
@@ -31,7 +31,7 @@
         }
 
         .etc h1,
-        .etc #line-5 {
+        .etc #line-4 {
             font-size: 3.5vw;
         }
 
@@ -70,7 +70,7 @@
             bottom: 50px;
         }
 
-        #line-5,
+        #line-4,
         #footer p,
         #footer a {
             font-size: 3.3vw;
@@ -78,7 +78,7 @@
         }
 
         .etc h1,
-        .etc #line-5 {
+        .etc #line-4 {
             font-size: 4vw;
         }
 
@@ -117,7 +117,7 @@
             bottom: 50px;
         }
 
-        #line-5,
+        #line-4,
         #footer p,
         #footer a {
             font-size: 22px;
@@ -125,7 +125,7 @@
         }
 
         .etc h1,
-        .etc #line-5 {
+        .etc #line-4 {
             font-size: 26px;
         }
 
@@ -165,7 +165,7 @@
             bottom: 50px;
         }
 
-        #line-5,
+        #line-4,
         #footer p,
         #footer a {
             font-size: 22px;
@@ -173,7 +173,7 @@
         }
 
         .etc h1,
-        .etc #line-5 {
+        .etc #line-4 {
             font-size: 26px;
         }
 
@@ -316,23 +316,23 @@
         margin: 6.4% 0 0 0;
     }
 
+    #line-1,
     #line-2,
-    #line-3,
-    #line-4 {
+    #line-3 {
         margin: 2.6% 0 0 0;
     }
 
-    #line-5 {
+    #line-4 {
         margin: 3.9% 0 0 33%;
     }
 
+    .etc #line-1,
     .etc #line-2,
-    .etc #line-3,
-    .etc #line-4 {
+    .etc #line-3 {
         margin: 0;
     }
 
-    .etc #line-5 {
+    .etc #line-4 {
         margin: 1.8% 0 0 33%;
     }
 
