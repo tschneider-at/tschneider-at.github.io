@@ -1,11 +1,11 @@
 //painter
 
-document.getElementsByClassName("body").style.cursor = "none";
-
 const canvas = document.querySelector("canvas")
 
 canvas.width = window.innerWidth
 canvas.height = window.innerHeight
+
+document.body.style.cursor = "none"
 
 const context = canvas.getContext("2d")
 
